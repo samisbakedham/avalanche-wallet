@@ -7,7 +7,7 @@ import { EVMAPI } from 'avalanche/dist/apis/evm'
 
 // Connect to TestNet by default
 // Doesn't really matter how we initialize, it will get changed by the network module later
-let ip: string = 'bootstrap.ava.network'
+let ip: string = 'rpc.cndlchain.com'
 let port: number = 21000
 let protocol: string = 'https'
 let network_id: number = 2

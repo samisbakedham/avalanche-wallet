@@ -76,13 +76,13 @@ export default {
                 vmid: 'description',
                 name: 'description',
                 content:
-                    'Avalanche wallet is a simple, highly secure, non-custodial crypto wallet for storing AVAX.',
+                    'Candle wallet is a simple, highly secure, non-custodial crypto wallet for storing CNDL.',
             },
             {
                 vmid: 'og:description',
                 name: 'description',
                 content:
-                    'Avalanche wallet is a simple, highly secure, non-custodial crypto wallet for storing AVAX.',
+                    'Candle wallet is a simple, highly secure, non-custodial crypto wallet for storing CNDL.',
             },
             {
                 vmid: 'og:title',

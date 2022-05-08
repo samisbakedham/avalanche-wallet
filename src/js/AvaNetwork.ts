@@ -30,7 +30,7 @@ class AvaNetwork {
         this.explorerUrl = explorerUrl
         this.explorerSiteUrl = explorerSiteUrl
         this.protocol = 'http'
-        this.port = 9650
+        this.port = 8545
         this.ip = 'localhost'
         this.url = url
         this.updateURL(url)
