@@ -104,10 +104,10 @@ const network_module: Module<NetworkState, RootState> = {
             state.status = 'connecting'
 
             // Chose if the network should use credentials
-            await net.updateCredentials()
-            ava.setRequestConfig('withCredentials', net.withCredentials)
-            ava.setAddress(net.ip, net.port, net.protocol)
-            ava.setNetworkID(net.networkId)
+            //        await net.updateCredentials()
+            //        ava.setRequestConfig('withCredentials', net.withCredentials)
+            //        ava.setAddress(net.ip, net.port, net.protocol)
+            //      ava.setNetworkID(net.networkId)
 
             // Reset transaction history
             commit('History/clear', null, { root: true })
@@ -179,8 +179,8 @@ const network_module: Module<NetworkState, RootState> = {
         async init({ state, commit, dispatch }) {
             let mainnet = new AvaNetwork(
                 'Mainnet',
-                'https://api.avax.network:443',
-                1,
+                'https://rpc.cndlchain.com',
+                534,
                 'https://explorerapi.avax.network',
                 'https://explorer.avax.network',
                 true
